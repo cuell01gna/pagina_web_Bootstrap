@@ -44,8 +44,17 @@ nav a:hover {
     src: url("RussoOne-Regular.ttf");
 }
 .carousel {
-    width: 80%; /* Ajusta el ancho del carrusel según tus necesidades */
+    width: 100; /* Ajusta el ancho del carrusel según tus necesidades */
     max-width: 600px; /* Establece un ancho máximo para limitar el tamaño del carrusel */
     margin: 0 auto; /* Centra horizontalmente el carrusel */
+border: solid 5px rgb(18, 184, 196);
+border-radius: 5px;
 }
-
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ajusta la imagen para que se muestre completamente sin recortarla */
+}
+.carousel {
+    margin-top: 10px;
+}
