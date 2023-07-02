@@ -1,7 +1,7 @@
 body{
     background-image: url(../img/fndolavadero.png);
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: 500px auto;
 }
 .logo {
     height: 20%;
