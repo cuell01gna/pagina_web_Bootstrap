@@ -1,11 +1,11 @@
 body{
     background-image: url(../img/fndolavadero.png);
-    background-size: 1400px;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .logo {
-    height: 80px;
-    width: 90px;
+    height: 100%;
+    width: 20%;
     display: inline-block;
     vertical-align: middle;
 }
@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 #nombreE {
-    margin-left: 600px;
+    margin-left: 13%;
     color:yellow;
 }
 @font-face {
@@ -44,14 +44,14 @@ nav a:hover {
     src: url("RussoOne-Regular.ttf");
 }
 .carousel {
-    width: 500px; /* Ajusta el ancho del carrusel según tus necesidades */
-    max-width: 600px; /* Establece un ancho máximo para limitar el tamaño del carrusel */
+    width: 30%; /* Ajusta el ancho del carrusel según tus necesidades */
+    max-width: 90%; /* Establece un ancho máximo para limitar el tamaño del carrusel */
     margin: 0 auto; /* Centra horizontalmente el carrusel */
-    border: solid 5px rgb(18, 184, 196);
-    border-radius: 5px;
+    border: solid 3px rgb(18, 184, 196);
+    border-radius: 1%;
 }
 .carousel-item img{
-    height: 600px;
+    height: 600%;
     object-fit: contain; /* Ajusta la imagen para que se muestre completamente sin recortarla */
 }
 .carousel {
