@@ -1,0 +1,51 @@
+body{
+    background-image: url(../imgs/fndolavadero.jpg);
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+.logo {
+    height: 80px;
+    width: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de viñeta de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block; /* Los elementos de navegación se muestran en línea */
+}
+
+nav a {
+    display: block;
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    padding: 10px 20px; /* Espaciado alrededor de los enlaces */
+}
+
+nav a:hover {
+    background-color: #666; /* Color de fondo cuando se pasa el ratón por encima */
+}
+
+#nombreE {
+    margin-left: 600px;
+    color:yellow;
+}
+@font-face {
+    font-family: letratitutlo;
+    src: url("RussoOne-Regular.ttf");
+}
+.carousel {
+    width: 80%; /* Ajusta el ancho del carrusel según tus necesidades */
+    max-width: 600px; /* Establece un ancho máximo para limitar el tamaño del carrusel */
+    margin: 0 auto; /* Centra horizontalmente el carrusel */
+}
+
