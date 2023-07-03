@@ -66,3 +66,29 @@ nav a:hover {
     border: 4px double rgb(28, 204, 136); /* Borde del texto destacado */
     padding: 10px; /* Espacio interno para separar el contenido del borde */
 }
+.container2{
+    border: solid 1px;
+#text3 {
+    margin-left: 430px;
+    color: black;
+    border: double plum;
+    max-width: 500px;
+    background-color: pink;
+}
+.moto {
+    margin-left: 430px;
+    height: 500px;
+    width: 500px;
+    border: double;
+    
+
+}
+}
+#PieDePagina {
+    
+    box-shadow: 10px 5px 8px powderblue;
+    padding: 5px 10px ;
+    margin: 10px;
+    border-radius: 6px;
+    background-color: palegoldenrod;
+}
