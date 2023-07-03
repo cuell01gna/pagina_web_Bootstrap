@@ -4,10 +4,7 @@ body{
     background-size: 1390px;
 }
 .logo {
-    height: 20%;
-    width: 10%;
-    display: inline-block;
-    vertical-align: middle;
+    width: 60px;
 }
 
 nav {
@@ -36,7 +33,7 @@ nav a:hover {
 }
 
 #nombreE {
-    margin-left: 15%;
+    margin-left: 45%;
     color:yellow;
 }
 @font-face {
@@ -56,4 +53,19 @@ nav a:hover {
 }
 .carousel {
     margin-top: 10px;
+}
+#acerca {
+    color: aliceblue;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+.container {
+    max-width: 50px; /* El ancho máximo del contenedor */
+    margin: 10px auto; /* Centra el contenedor en la página, opcional */
+}
+
+.text1 {
+    background-color: lightblue; /* Color de fondo del texto destacado */
+    border: 4px double rgb(28, 204, 136); /* Borde del texto destacado */
+    padding: 10px; /* Espacio interno para separar el contenido del borde */
 }
