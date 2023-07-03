@@ -3,10 +3,6 @@ body{
     background-attachment: fixed;
     background-size: 1390px;
 }
-.logo {
-    width: 60px;
-    height: 20px;
-}
 
 nav {
     background-color: #333; /* Color de fondo de la barra de navegación */
