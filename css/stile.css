@@ -73,22 +73,25 @@ nav a:hover {
     color: black;
     border: double plum;
     max-width: 500px;
-    background-color: pink;
+    background-color: lightblue;
 }
 .moto {
     margin-left: 430px;
     height: 500px;
     width: 500px;
     border: double;
-    
+    box-shadow: 10px 5px 8px;
 
 }
 }
-#PieDePagina {
+.PieDePagina {
     
     box-shadow: 10px 5px 8px powderblue;
     padding: 5px 10px ;
     margin: 10px;
     border-radius: 6px;
     background-color: palegoldenrod;
+}
+.logig {
+    margin-left: 30px;
 }
